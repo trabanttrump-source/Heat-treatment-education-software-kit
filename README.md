@@ -2,7 +2,7 @@ Steel Heat Treatment Analysis Suite
 A comprehensive collection of professional metallurgical software tools for steel heat treatment analysis, prediction, and simulation. This suite includes three specialized applications for tempering analysis, transformation diagrams, and hardenability calculations.
 
 📋 Applications Overview
-1. Temperdata 1.0
+1. Temperdata 1.2
 Steel Tempering Analysis Software
 
 Temperdata is designed for visualization and analysis of steel tempering process data. It enables viewing tempering curves for various steel grades, reviewing chemical compositions, and exporting data and plots.
@@ -31,7 +31,7 @@ Complete chemical compositions
 
 Data source references
 
-2. Quenching Studio 1.0
+2. Quenching Studio 1.2
 Steel Transformation Analysis Software
 
 Quenching Studio provides advanced analysis of phase transformations in steels during heat treatment. Based on scientific models, it calculates critical temperatures, transformation kinetics, and predicts final properties.
@@ -62,7 +62,7 @@ Support for custom steel compositions
 
 Grain size effects on transformations
 
-3. Jomina Analyzer 1.0
+3. Jomina Analyzer 1.2
 Professional Steel Hardenability Analysis Tool
 
 Jomina Analyzer specializes in Jominy end-quench test analysis and hardenability predictions. It provides multiple calculation methods for critical diameter and Jominy curve prediction.
@@ -113,13 +113,7 @@ bash
 pip install PyQt5 pandas numpy matplotlib scipy
 Run individual applications:
 
-bash
-python "Temperdata 1.0 EN.py"
-python "Quenching studio 1.0 EN.py"
-python "Jomina Analyser EN 1.0.py"
-📖 Usage
-Temperdata 1.0
-Launch the application
+
 
 Load CSV data (automatic or manual)
 
@@ -135,7 +129,7 @@ Data Table: Tabular data view
 
 Manual: User documentation
 
-Quenching Studio 1.0
+Quenching Studio 1.2
 Select steel from database or input custom composition
 
 Set temperature parameters and cooling rates
@@ -152,7 +146,7 @@ CCT diagram generation
 
 View results in respective tabs
 
-Jomina Analyzer 1.0
+Jomina Analyzer 1.2
 Select steel grade or input composition
 
 Calculate critical diameter using multiple methods
